@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="myFunction()">Nối mảng </button>
+
+<p id="result"></p>
+<script>
+    function myFunction() {
+        let a = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19];
+        let name = ["Lam", "Uyen", "Tuyet"];
+        let neww = a.concat(name);
+        document.getElementById("result").innerHTML = neww;
+    }
+</script>
+</body>
+</html>
